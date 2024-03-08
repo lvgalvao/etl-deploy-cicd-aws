@@ -1,11 +1,11 @@
 import boto3
 import pandas as pd
 import time
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
 # Carregar variáveis de ambiente do arquivo .env
-load_dotenv()
+# load_dotenv()
 
 # Configurações
 bucket_name = os.getenv('AWS_BUCKET_NAME')
